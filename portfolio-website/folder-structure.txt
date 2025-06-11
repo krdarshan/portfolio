@@ -1,0 +1,41 @@
+portfolio-website/
+│
+├── index.html              # Main HTML file with complete portfolio structure
+├── DarshankrCV.pdf        # Your resume/CV file (add your actual CV)
+├── isc2cert.pdf           # ISC2 certification file (add your actual certificate)
+│
+├── css/
+│   ├── style.css          # Main stylesheet with black & blue theme
+│   └── responsive.css     # Responsive design for all devices
+│
+├── js/
+│   └── main.js           # JavaScript for animations and interactions
+│
+├── images/
+│   └── profilepicture.jpg # Your profile picture (add your actual photo)
+│
+└── README.md             # Complete documentation and setup guide
+
+INSTRUCTIONS:
+1. Download this complete folder structure
+2. Replace 'profilepicture.jpg' with your actual profile photo
+3. Replace 'DarshankrCV.pdf' with your actual resume
+4. Replace 'isc2cert.pdf' with your actual certificate
+5. Update personal information in index.html
+6. Customize colors in css/style.css if needed
+7. Test by opening index.html in a browser
+8. Deploy to your preferred hosting platform
+
+FEATURES INCLUDED:
+✅ Black & Blue Professional Theme
+✅ Smooth Animations & Transitions
+✅ Round Profile Picture
+✅ Fully Responsive Design
+✅ Dark/Light Theme Toggle
+✅ Contact Form Integration
+✅ Project Filtering
+✅ Scroll Animations
+✅ Mobile Navigation
+✅ Performance Optimized
+✅ SEO Friendly
+✅ Accessibility Features

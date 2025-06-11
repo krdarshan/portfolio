@@ -1,0 +1,270 @@
+/* ===== RESPONSIVE DESIGN ===== */
+
+/* Tablets */
+@media (max-width: 768px) {
+  /* Navigation */
+  .hamburger {
+    display: flex;
+  }
+
+  #navbar {
+    position: fixed;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: rgba(30, 41, 59, 0.98);
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+    border-top: 1px solid var(--border-color);
+  }
+
+  #navbar.active {
+    top: 70px;
+  }
+
+  #navbar ul {
+    flex-direction: column;
+    padding: 1rem;
+    gap: 0;
+  }
+
+  .nav-link {
+    display: block;
+    padding: 1rem;
+    border-radius: 6px;
+    margin-bottom: 0.5rem;
+  }
+
+  /* Hero Section */
+  .hero .container {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 2rem;
+  }
+
+  .hero-content {
+    order: 2;
+  }
+
+  .hero-image {
+    order: 1;
+  }
+
+  .hero-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-image img {
+    width: 220px;
+    height: 220px;
+  }
+
+  /* About Section */
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  /* Skills */
+  .skills-container {
+    grid-template-columns: 1fr;
+  }
+
+  .skills-grid {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  }
+
+  /* Projects */
+  .project-filters {
+    gap: 0.5rem;
+  }
+
+  .filter-btn {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Certifications */
+  .certifications-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .achievements-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Coding */
+  .coding-container {
+    grid-template-columns: 1fr;
+  }
+
+  /* Contact */
+  .contact-container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  /* Footer */
+  .footer-content {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+
+  /* Theme Toggle */
+  .theme-toggle {
+    top: auto;
+    bottom: 80px;
+    right: 15px;
+    width: 45px;
+    height: 45px;
+  }
+
+  /* Back to Top */
+  .back-to-top {
+    bottom: 15px;
+    right: 15px;
+    width: 45px;
+    height: 45px;
+  }
+}
+
+/* Mobile Phones */
+@media (max-width: 576px) {
+  .container {
+    padding: 0 15px;
+  }
+
+  /* Header */
+  .logo a {
+    font-size: 1.5rem;
+  }
+
+  /* Hero Section */
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .hero-content h2 {
+    font-size: 1.2rem;
+  }
+
+  .hero-image img {
+    width: 180px;
+    height: 180px;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  /* Sections */
+  .section {
+    padding: 60px 0;
+  }
+
+  .section-header h2 {
+    font-size: 2rem;
+  }
+
+  /* About */
+  .about-card {
+    padding: 1.5rem;
+  }
+
+  .hobbies {
+    gap: 0.25rem;
+  }
+
+  .hobbies span {
+    font-size: 0.8rem;
+    padding: 0.4rem 0.8rem;
+  }
+
+  /* Skills */
+  .skill-category {
+    padding: 1.5rem;
+  }
+
+  .skills-grid {
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    gap: 0.75rem;
+  }
+
+  .skill-item {
+    padding: 0.75rem;
+  }
+
+  .skill-icon {
+    font-size: 1.5rem;
+  }
+
+  .skill-name {
+    font-size: 0.8rem;
+  }
+
+  /* Projects */
+  .project-card {
+    padding: 1.5rem;
+  }
+
+  .project-links {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  /* Certifications */
+  .cert-card {
+    padding: 1.5rem;
+  }
+
+  .cert-icon {
+    width: 50px;
+    height: 50px;
+    font-size: 1.3rem;
+  }
+
+  /* Contact */
+  .contact-form,
+  .contact-info {
+    padding: 1.5rem;
+  }
+
+  /* Theme Toggle */
+  .theme-toggle {
+    width: 40px;
+    height: 40px;
+    bottom: 70px;
+  }
+
+  /* Back to Top */
+  .back-to-top {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+/* Extra Small Devices */
+@media (max-width: 480px) {
+  .hero-content h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero-image img {
+    width: 160px;
+    height: 160px;
+  }
+
+  .section-header h2 {
+    font-size: 1.8rem;
+  }
+
+  .coding-container {
+    grid-template-columns: 1fr;
+  }
+}
